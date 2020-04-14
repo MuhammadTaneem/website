@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding:0;
+
+}
+.c{
+	align-self:center;
+}
+
+/*navigation bar*/
+.navbar{
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:.9rem;
+	letter-spacing:.1rem;
+	background-color: #0005;
+
+}
+.navbar-nav li{
+	padding-right:1rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	background-color:#2CEE6C;
+	border-radius:20%;
+	font-size:.9rem;
+	color: green;
+}
+
+
+
+.maindiv{
+	background-image: url("../images/bg.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 1000px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+	background: cover;
+	text-transform: uppercase;
+}
+p,h1{
+	font-family:arial,"Times New Roman";
+	font-size:1rem;
+	font-style:italic; /*normal, italic oblique*/
+	font-weight: 500;  /* px or bold*/
+	text-align: center; /*center,left ,right justify */
+	text-decoration:none; /*none , overline , line-through,underline*/
+	text-indent:0px;
+	text-transform:uppercase; /*uppercase ,lowercase, capitalize*/
+	line-height:2rem;
+	letter-spacing:1px;
+	text-shadow:.5px .5px ;
+
+}
+.m2{
+	margin:1.5rem;
+}
+.bgt{
+	background-color:#00000091;
+	color:#ffffffbf;
+
+}
+.food{
+	/*margin: 10px 0px;*/
+
+}
+.card{
+	box-shadow: 10px 10px 5px grey;
+	margin-top:40px;
+}
+.card-img-top{
+	height: 400px;
+	transition:1s;
+}
+.card-img-top:hover{
+	transform: scale(.9,.9);
+	box-shadow:10px 10px 10px 10px #28a7456e;
+}
+.card-text{
+	background-color:#cccbcb96;
+}
+
+.card-body{
+	margin:0px;
+	padding:0px;
+}
+
+@media only screen and (min-width: 600px) {
+	.card{
+		max-width:100%;
+	}
+}
+
+
+@media only screen and (min-width: 900px) {
+	.card{
+		width:50%;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.card{
+		width:33%;
+	}
+}
+
+
+/*footer css*/
+footer{
+	padding-top:12rem;
+	padding-bottom:6rem;
+}
+#contact{
+	background-image:url("../images/ft.jpg");
+	height:50rem;
+	width:100%;
+   background-attachment: fixed;
+   background-size:cover;
+   color:#fff;
+}
+#contact i{
+	color:#61F164;
+	font-size:250%;
+	padding-top:3rem;
+}
+.mo{
+	margin:auto;
+	padding: auto;
+}
+footer img{
+	height: 3.1rem;
+	margin-bottom:2rem;
+}

@@ -1,0 +1,55 @@
+.h120{
+height:60em;
+padding:0;
+margin:0;
+}
+.img-txt{
+position: relative;
+text-align: center;
+color: white;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family:Arial, sans-serif;
+}
+.centered p{
+font-size:4em;
+font-family:Arial, sans-serif;
+}
+.kk{
+margin-top:30px;
+}
+.mnd{
+text-align: center;
+padding-top:50px;
+padding-bottom: 40px;
+}
+.pu{
+margin-top: 3em;
+}
+.c{
+text-align: center;
+}
+.md{margin-bottom: 10em;}
+.bg-white{background-color: white}
+.p1{padding: .5em;}
+.display-6{font-size:200%;}
+.display-5{font-size:120%;}
+
+.kottarbacca{
+	background-color: #0009;
+	padding:1.8em;
+}
+.k{
+	background-color: #0009;
+	padding-top:1em;
+}
+i{
+	font-size: 250%;
+}
+.clb{
+	background-color: black;
+}

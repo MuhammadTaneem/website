@@ -1,0 +1,29 @@
+.c{
+margin: auto;
+text-align: center;
+}
+h1{
+	color:#0009;
+	background-color:white;
+	padding-top:1em;
+}
+p{
+	background-color: #80808954;
+}
+.primary{
+	margin-top:6em;
+}
+.pr{
+	margin-top:3em;
+}
+img{
+	height:  3em;
+	width: 3em;
+}
+.dn{
+	padding-bottom: 10em;
+}
+.kk{
+	background-color: #80808954;
+}
+.ppppp{padding-top:6em;}
