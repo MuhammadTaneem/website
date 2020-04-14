@@ -18,6 +18,7 @@ body{
 }
 .navbar-nav li{
 	padding-right:1rem;
+	text-align: center;
 }
 .navbar-dark .navbar-nav .nav-link{
 	color: white;
